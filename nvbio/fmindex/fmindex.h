@@ -638,7 +638,7 @@ MOD_NAMESPACE_BEGIN
 #endif
 
 #if USE_TEX
-texture<uint32> s_count_table_tex;
+extern texture<uint32> s_count_table_tex;
 #endif
 ///
 /// Helper structure for handling the (global) count table texture
